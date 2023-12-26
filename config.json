@@ -1,0 +1,27 @@
+{
+  "name": {
+    "zh-cn": "Maxbot音频操作",
+    "en": "Max:botaudio"
+  },
+  "description": {
+    "zh-cn": "行空板小车课程专用音频处理库",
+    "en": "audio processing"
+  },
+  "author": "winster",
+  "email": "2310016043@qq.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "audio",
+  "version": "0.0.1",
+  "platform": ["win"],
+  "asset": {
+    "python": {
+      "dir": "python/",
+      "main": "main.ts",
+      "version": "0.0.1",
+      "dependencies": {
+                "pinpong":""
+      }
+      }
+  }
+}
